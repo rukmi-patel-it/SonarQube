@@ -40,7 +40,7 @@ docker-compose up -d --build
         -Dsonar.token=[TOKEN]
     ```
 
-#References
+# References
 
  - SonarQube: https://www.sonarsource.com/
  - SonarScanner: https://docs.sonarsource.com/sonarqube-server/10.4/analyzing-source-code/scanners/sonarscanner/
