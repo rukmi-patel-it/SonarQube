@@ -2,7 +2,9 @@
 
 Run below command to download docker containers to run sonar-qube web server.
 
-`docker-compose up -d --build`
+```
+docker-compose up -d --build
+```
 
 # Sonar Scanner
  To install sonar-scanner, Please go to - https://docs.sonarsource.com/sonarqube-server/10.4/analyzing-source-code/scanners/sonarscanner/
@@ -31,11 +33,11 @@ Run below command to download docker containers to run sonar-qube web server.
 7. Run below command where you need to replace [PROJECT_KEY] and [TOKEN] with your own values.
 
     ```
-        sonar-scanner \
-            -Dsonar.projectKey=[PROJECT_KEY] \
-            -Dsonar.sources=. \
-            -Dsonar.host.url=http://localhost:9001 \
-            -Dsonar.token=[TOKEN]
+    sonar-scanner \
+        -Dsonar.projectKey=[PROJECT_KEY] \
+        -Dsonar.sources=. \
+        -Dsonar.host.url=http://localhost:9001 \
+        -Dsonar.token=[TOKEN]
     ```
 
 #References
